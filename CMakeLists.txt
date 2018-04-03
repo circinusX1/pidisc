@@ -17,4 +17,3 @@
 
 PROJECT(HG_LOCATOR)
 add_executable (pidisc main.cpp)
-SET(EXECUTABLE_OUTPUT_PATH ../bin)
