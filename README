@@ -3,11 +3,27 @@ make
 
 
 # on each PC or raspberry pi on the network
- ./install.sh
+ sudo ./install.sh
+   - tweak /etc/init.d/pidiscd
+   - use update-rc.d pidiscd remove
+   - use update-rc.d pidiscd defaults
+       - untill you get the service up
 
 will ask for the token which will be matched with the client
   - to doscover all PC's om the net give same token to all PC's
-  - you can group PC's with different toens.
+  - you can group PC's with different tokens.
+
+# on a shell at prompt on any of the installed type 'pidisc -d <token>'
+
+```javascript
+marius@ev:~$ pidisc d pi
+try port:19211 on wlo1
+
+1: ev: 192.168.1.232
+2: minibian2: 192.168.1.220
+3: minibian: 192.168.1.199
+```
+
 
 
 # on client machine when you wanna discover
