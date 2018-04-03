@@ -15,13 +15,16 @@ will ask for the token which will be matched with the client
 
 # on a shell at prompt on any of the installed type 'pidisc -d <token>'
 
+
 ```javascript
+
 marius@ev:~$ pidisc d pi
 try port:19211 on wlo1
 
 1: ev: 192.168.1.232
 2: minibian2: 192.168.1.220
 3: minibian: 192.168.1.199
+
 ```
 
 
